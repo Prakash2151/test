@@ -1,0 +1,14 @@
+repos:
+-   repo: https://github.com/Prakash2151/test/tree/testing_commithooks
+    rev: v2.3.0
+    hooks: 
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: detect-aws-credentials
+    -   id: detect-private-key 
+-   repo: https://github.com/psf/black
+    rev: 22.10.0
+    hooks:
+    -   id: black 
+    
